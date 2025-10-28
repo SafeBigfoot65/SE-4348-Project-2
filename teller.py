@@ -9,7 +9,9 @@ class Teller (threading.Thread):
                  bank_opening_event, teller_ready_counter, # Counter for ready tellers and bank opening event
                  teller_ready_counter_lock, available_tellers_semaphore, # Semaphore to signal available tellers
                  customer_served_counter, customer_served_counter_lock, # Counter for customers served by this teller
-                 TOTAL_CUSTOMERS): #Total number of customers to be served (50 max)
+                 TOTAL_CUSTOMERS, #Total number of customers to be served (50 max)
+                 teller_queue, num_tellers, # queue of available tellers and number of tellers 
+                 logger, logger_clear): # logger function and clear function
         
         super().__init__()
 
@@ -27,6 +29,12 @@ class Teller (threading.Thread):
         self.customer_served_counter = customer_served_counter
         self.customer_served_counter_lock = customer_served_counter_lock
         self.TOTAL_CUSTOMERS = TOTAL_CUSTOMERS
+        self.teller_queue = teller_queue
+        self.num_tellers = num_tellers
+
+        # Logger function (callable) and clear function
+        self.logger = logger
+        self.logger_clear = logger_clear
 
         # Customer signals to be assigned to this teller
         self.customer_assigned_semaphore = threading.Semaphore(0)
@@ -34,65 +42,111 @@ class Teller (threading.Thread):
         # Customer signals after giving their customer ID
         self.customer_id_received_semaphore = threading.Semaphore(0)
 
-        # Customer signals after giving their transaction type
+        # Teller signals ready for transaction (teller -> customer)
+        self.teller_ready_for_transaction_semaphore = threading.Semaphore(0)
+
+        # Customer signals after giving their transaction type (customer -> teller)
         self.transaction_type_received_semaphore = threading.Semaphore(0)
 
-        # Teller signals after completing the transaction
+        # Teller signals after completing the transaction (teller -> customer)
         self.transaction_complete_semaphore = threading.Semaphore(0)
 
-        # Customer signals after leaving the teller
+        # Customer signals after leaving the teller (customer -> teller)
         self.customer_left_semaphore = threading.Semaphore(0)
 
-        # Output regarding the teller actions on a customer or manager
-        def output(self, msg):
-            
-            if self.current_customer_id is not None:
-                print(f"Teller{self.teller_id} [Customer {self.current_customer_id}]: {msg}")
+    # Output regarding the teller actions on a customer or manager
+    def output(self, msg):
+        text = f"Teller {self.teller_id}"
+        if self.current_customer_id is not None:
+            text += f" [Customer {self.current_customer_id}]: {msg}"
+        else:
+            text += f": {msg}"
+        # Use logger
+        if hasattr(self, 'logger') and self.logger:
+            try:
+                self.logger(text)
+            except Exception:
+                # If logger fails
+                print(text)
+        else:
+            print(text)
+
+    def run(self):
+        # Main logic for the teller thread
+
+        # Log that the teller is ready
+        self.output("is ready for customers.")
+
+        with self.teller_ready_counter_lock:
+            self.teller_ready_counter[0] += 1
+            count = self.teller_ready_counter[0]
+
+        if count == self.num_tellers:
+            # Clear log at bank opening as requested
+            if hasattr(self, 'logger_clear') and self.logger_clear:
+                try:
+                    self.logger_clear()
+                except Exception:
+                    pass
+            # Announce opening
+            open_msg = "\nAll tellers are ready. Bank is now open.\n"
+            if hasattr(self, 'logger') and self.logger:
+                try:
+                    self.logger(open_msg)
+                except Exception:
+                    print(open_msg)
             else:
-                print(f"Teller{self.teller_id} [Manager]: {msg}")
+                print(open_msg)
 
-        
-        def run(self):
-            # Main logic for the teller thread
+            # Signal bank opening
+            self.bank_opening_event.set()
 
-            # Log that the teller is ready
-            self.output("is ready for customers.")
+        # Teller Service Loop
+        while True:
+            # Check if all customers have been served or bank is closing
+            with self.customer_served_counter_lock:
+                current_count = self.customer_served_counter[0]
+                if current_count >= self.TOTAL_CUSTOMERS:
+                    self.output(f"\nClosing - all {current_count} customers served")
+                    break
 
-            with self.teller_ready_counter_lock:
-                self.teller_ready_counter[0] += 1
-                count = self.teller_ready_counter[0]
+            # Try to serve the next customer with timeout
+            try:
+                if not self.serve_customer():  # If serve_customer returns False, bank is closing
+                    self.output("No more customers to serve")
+                    break
+            except Exception as e:
+                self.output(f"Error serving customer: {str(e)}")
+                break  # Exit on any error to prevent infinite loops
 
-            if count == 3:
-                print("All tellers are ready. Bank is now open.")
-
-
-            # Teller Service Loop
-
-            while True:
-                # Check if all customers have been served (all 50 of them)
-                with self.customer_served_counter_lock:
-                    if self.customer_served_counter[0] == self.TOTAL_CUSTOMERS:
-                        break
-
-                # else, serve the next customer
-                self.serve_customer()
-
-            # If all customers have been served, log that the teller is closing
-            self.output("has served all customers and is closing for the day.")
+        # If all customers have been served, log that the teller is closing
+        self.output("has served all customers and is closing for the day.")
 
     # Serve the next customer
     def serve_customer(self):
+        
+        # First check if bank is still accepting customers
+        with self.customer_served_counter_lock:
+            if self.customer_served_counter[0] >= self.TOTAL_CUSTOMERS:
+                return False
+
         # Announce availability
         self.output("is available for the next customer.")
 
-        # add teller to a queue of available tellers
-        self.queue_available_teller().put(self)
-        # Signal that a teller is available for a customer
+        # Add teller to the queue FIRST to prevent a race condition
+        self.teller_queue.put(self)
+
+        # signal that a teller is available in the queue
         self.available_tellers_semaphore.release()
 
-        # Wait for a customer to be assigned
+        # Wait indefinitely for a customer to be assigned
         self.customer_assigned_semaphore.acquire()
 
+        # Check if the bank is closing
+        with self.customer_served_counter_lock:
+            if self.customer_served_counter[0] >= self.TOTAL_CUSTOMERS:
+                return False  # Tell the run() loop to stop
+        
         # ask for customer ID
         self.output("is requesting customer ID.")
         self.customer_id_received_semaphore.acquire()
@@ -125,6 +179,8 @@ class Teller (threading.Thread):
         self.current_customer_id = None
         self.current_transaction = None
 
+        return True
+
     def ask_manager_for_withdrawal(self):
         # Request manager approval for withdrawal
         self.output("is going to see the manager for withdrawal approval.")
@@ -141,4 +197,4 @@ class Teller (threading.Thread):
         with self.safe_semaphore:
             self.output("is at the safe.")
             time.sleep(random.uniform(0.010, 0.050))  # Random duration between 10ms and 50ms
-            self.output(f"finished {self.current_transaction}at the safe.")
+            self.output(f"finished {self.current_transaction} in the safe.")
