@@ -16,3 +16,7 @@ Made some changes to teller.py. In this file, I implemented the algorithm of log
 # Date: 10/28/2025; Time: 10:07 PM
 
 I've completed customer.py. This file may need some adjustments later, but it seems good for now. I also wrote another script, that handles the logging aspect of this program. Next up is the main file, which will serve as the platform in regards to the interactions between the customers, tellers, and the shared resources (e.g., manager and safe). This part won't take me long to do, hopefully...Until next time!!!
+
+# Date: 11/1/2025; Time: 8:06 PM
+
+I've completed the project! I added a new file called bank.py, which serves as the main. It handles all of the 3 teller threads, 50 customer threads, and the opening and closing events. A hurdle I had to overcome was the fact that my program would just freeze up towards the end. That is, all of the 50 customers have been served, yet the program wouldn't end. That was when I noticed that 2 tellers remained idle, so I add some code to wake up them and release them. Additionally, I included a file called "log.txt", that of course stores all of the logs/messages. Everytime the program runs, it clears the old logs from the previous runs, and appends newer messages to the file. As I stated earlier, there are at least 1000 lines of logs, so I wanted to make it easier to read and analyze. I also included a README for the TA. Anyway, that is it!!!

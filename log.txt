@@ -1,0 +1,1161 @@
+
+All tellers are ready. Bank is now open.
+
+Teller 0: is available for the next customer.
+Teller 1: is available for the next customer.
+Teller 2: is available for the next customer.
+Customer 1: wants to withdraw money.
+Customer 1: is waiting to enter the bank.
+Customer 1: has entered the bank.
+Customer 1: is waiting for an available teller.
+Customer 1: found an available teller.
+Customer 1 [Teller 0]: chooses Teller 0.
+Customer 1 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 1]: is requesting customer ID.
+Teller 0 [Customer 1]: received customer ID
+Teller 0 [Customer 1]: is requesting transaction type.
+Customer 1 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 1]: received transaction type: withdraw
+Teller 0 [Customer 1]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 1]: is with the manager for withdrawal approval.
+Customer 17: wants to deposit money.
+Customer 17: is waiting to enter the bank.
+Customer 17: has entered the bank.
+Customer 17: is waiting for an available teller.
+Customer 17: found an available teller.
+Customer 17 [Teller 1]: chooses Teller 1.
+Customer 17 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 17]: is requesting customer ID.
+Teller 1 [Customer 17]: received customer ID
+Teller 1 [Customer 17]: is requesting transaction type.
+Customer 17 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 17]: received transaction type: deposit
+Customer 11: wants to withdraw money.
+Teller 1 [Customer 17]: is going to the safe.
+Customer 11: is waiting to enter the bank.
+Teller 1 [Customer 17]: is at the safe.
+
+Waiting for customers to finish...
+Customer 12: wants to withdraw money.
+Customer 12: is waiting to enter the bank.
+Customer 31: wants to deposit money.
+Customer 31: is waiting to enter the bank.
+Customer 13: wants to withdraw money.
+Customer 13: is waiting to enter the bank.
+Customer 32: wants to withdraw money.
+Customer 32: is waiting to enter the bank.
+Teller 1 [Customer 17]: finished deposit in the safe.
+Teller 1 [Customer 17]: Transaction complete.
+Customer 17 [Teller 1]: Transaction completed.
+Customer 17 [Teller 1]: is leaving the teller.
+Customer 17 [Teller 1]: has left the bank.
+Customer 11: has entered the bank.
+Customer 11: is waiting for an available teller.
+Teller 1 [Customer 17]: Customer has left.
+Customer 11: found an available teller.
+Teller 1: is available for the next customer.
+Customer 11 [Teller 2]: chooses Teller 2.
+Customer 11 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 11]: is requesting customer ID.
+Teller 2 [Customer 11]: received customer ID
+Teller 2 [Customer 11]: is requesting transaction type.
+Customer 11 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 11]: received transaction type: withdraw
+Teller 2 [Customer 11]: is going to see the manager for withdrawal approval.
+Customer 38: wants to deposit money.
+Customer 38: is waiting to enter the bank.
+Customer 4: wants to withdraw money.
+Customer 4: is waiting to enter the bank.
+Customer 39: wants to withdraw money.
+Customer 39: is waiting to enter the bank.
+Customer 10: wants to deposit money.
+Customer 10: is waiting to enter the bank.
+Customer 14: wants to deposit money.
+Customer 14: is waiting to enter the bank.
+Customer 0: wants to withdraw money.
+Customer 0: is waiting to enter the bank.
+Customer 30: wants to deposit money.
+Customer 30: is waiting to enter the bank.
+Teller 0 [Customer 1]: received withdrawal approval from the manager.
+Teller 0 [Customer 1]: is going to the safe.
+Teller 0 [Customer 1]: is at the safe.
+Teller 2 [Customer 11]: is with the manager for withdrawal approval.
+Customer 24: wants to withdraw money.
+Customer 24: is waiting to enter the bank.
+Customer 7: wants to withdraw money.
+Customer 7: is waiting to enter the bank.
+Customer 25: wants to withdraw money.
+Customer 25: is waiting to enter the bank.
+Customer 6: wants to deposit money.
+Customer 6: is waiting to enter the bank.
+Teller 2 [Customer 11]: received withdrawal approval from the manager.
+Teller 2 [Customer 11]: is going to the safe.
+Teller 2 [Customer 11]: is at the safe.
+Customer 34: wants to withdraw money.
+Customer 34: is waiting to enter the bank.
+Customer 41: wants to withdraw money.
+Customer 41: is waiting to enter the bank.
+Customer 33: wants to withdraw money.
+Customer 33: is waiting to enter the bank.
+Teller 0 [Customer 1]: finished withdraw in the safe.
+Teller 0 [Customer 1]: Transaction complete.
+Customer 1 [Teller 0]: Transaction completed.
+Customer 1 [Teller 0]: is leaving the teller.
+Customer 1 [Teller 0]: has left the bank.
+Customer 12: has entered the bank.
+Customer 12: is waiting for an available teller.
+Customer 12: found an available teller.
+Teller 0 [Customer 1]: Customer has left.
+Customer 12 [Teller 1]: chooses Teller 1.
+Teller 0: is available for the next customer.
+Customer 12 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 12]: is requesting customer ID.
+Teller 1 [Customer 12]: received customer ID
+Teller 1 [Customer 12]: is requesting transaction type.
+Customer 12 [Teller 1]: is telling teller to withdraw.
+Teller 1 [Customer 12]: received transaction type: withdraw
+Teller 1 [Customer 12]: is going to see the manager for withdrawal approval.
+Teller 1 [Customer 12]: is with the manager for withdrawal approval.
+Customer 23: wants to withdraw money.
+Customer 23: is waiting to enter the bank.
+Customer 43: wants to withdraw money.
+Customer 43: is waiting to enter the bank.
+Customer 45: wants to deposit money.
+Customer 45: is waiting to enter the bank.
+Teller 2 [Customer 11]: finished withdraw in the safe.
+Teller 2 [Customer 11]: Transaction complete.
+Customer 11 [Teller 2]: Transaction completed.
+Customer 11 [Teller 2]: is leaving the teller.
+Customer 11 [Teller 2]: has left the bank.
+Customer 31: has entered the bank.
+Customer 31: is waiting for an available teller.
+Customer 31: found an available teller.
+Customer 31 [Teller 0]: chooses Teller 0.
+Teller 2 [Customer 11]: Customer has left.
+Customer 31 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 31]: is requesting customer ID.
+Teller 2: is available for the next customer.
+Teller 0 [Customer 31]: received customer ID
+Teller 0 [Customer 31]: is requesting transaction type.
+Customer 31 [Teller 0]: is telling teller to deposit.
+Teller 0 [Customer 31]: received transaction type: deposit
+Teller 0 [Customer 31]: is going to the safe.
+Teller 0 [Customer 31]: is at the safe.
+Teller 1 [Customer 12]: received withdrawal approval from the manager.
+Teller 1 [Customer 12]: is going to the safe.
+Teller 1 [Customer 12]: is at the safe.
+Customer 42: wants to withdraw money.
+Customer 42: is waiting to enter the bank.
+Customer 44: wants to deposit money.
+Customer 44: is waiting to enter the bank.
+Customer 9: wants to withdraw money.
+Customer 9: is waiting to enter the bank.
+Customer 22: wants to deposit money.
+Customer 22: is waiting to enter the bank.
+Customer 37: wants to deposit money.
+Customer 37: is waiting to enter the bank.
+Customer 2: wants to deposit money.
+Customer 2: is waiting to enter the bank.
+Customer 29: wants to deposit money.
+Customer 29: is waiting to enter the bank.
+Customer 40: wants to deposit money.
+Customer 40: is waiting to enter the bank.
+Customer 47: wants to withdraw money.
+Customer 47: is waiting to enter the bank.
+Customer 18: wants to deposit money.
+Customer 18: is waiting to enter the bank.
+Customer 16: wants to withdraw money.
+Customer 16: is waiting to enter the bank.
+Customer 15: wants to withdraw money.
+Customer 15: is waiting to enter the bank.
+Customer 19: wants to withdraw money.
+Customer 19: is waiting to enter the bank.
+Customer 28: wants to deposit money.
+Customer 28: is waiting to enter the bank.
+Customer 46: wants to withdraw money.
+Customer 46: is waiting to enter the bank.
+Customer 8: wants to deposit money.
+Customer 8: is waiting to enter the bank.
+Customer 3: wants to withdraw money.
+Customer 3: is waiting to enter the bank.
+Customer 5: wants to withdraw money.
+Customer 20: wants to withdraw money.
+Customer 20: is waiting to enter the bank.
+Customer 5: is waiting to enter the bank.
+Teller 0 [Customer 31]: finished deposit in the safe.
+Teller 0 [Customer 31]: Transaction complete.
+Customer 31 [Teller 0]: Transaction completed.
+Customer 31 [Teller 0]: is leaving the teller.
+Customer 31 [Teller 0]: has left the bank.
+Teller 0 [Customer 31]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 13: has entered the bank.
+Customer 13: is waiting for an available teller.
+Customer 13: found an available teller.
+Customer 13 [Teller 2]: chooses Teller 2.
+Customer 13 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 13]: is requesting customer ID.
+Teller 2 [Customer 13]: received customer ID
+Teller 2 [Customer 13]: is requesting transaction type.
+Customer 13 [Teller 2]: is telling teller to withdraw.
+Customer 27: wants to withdraw money.
+Customer 21: wants to deposit money.
+Teller 2 [Customer 13]: received transaction type: withdraw
+Teller 2 [Customer 13]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 13]: is with the manager for withdrawal approval.
+Customer 21: is waiting to enter the bank.
+Customer 48: wants to withdraw money.
+Customer 48: is waiting to enter the bank.
+Customer 27: is waiting to enter the bank.
+Customer 26: wants to deposit money.
+Customer 26: is waiting to enter the bank.
+Teller 1 [Customer 12]: finished withdraw in the safe.
+Teller 1 [Customer 12]: Transaction complete.
+Customer 12 [Teller 1]: Transaction completed.
+Customer 12 [Teller 1]: is leaving the teller.
+Customer 12 [Teller 1]: has left the bank.
+Teller 1 [Customer 12]: Customer has left.
+Customer 32: has entered the bank.
+Customer 32: is waiting for an available teller.
+Customer 32: found an available teller.
+Teller 1: is available for the next customer.
+Customer 32 [Teller 0]: chooses Teller 0.
+Customer 32 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 32]: is requesting customer ID.
+Teller 0 [Customer 32]: received customer ID
+Teller 0 [Customer 32]: is requesting transaction type.
+Customer 32 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 32]: received transaction type: withdraw
+Teller 0 [Customer 32]: is going to see the manager for withdrawal approval.
+Customer 49: wants to deposit money.
+Customer 49: is waiting to enter the bank.
+Customer 36: wants to withdraw money.
+Customer 36: is waiting to enter the bank.
+Customer 35: wants to withdraw money.
+Customer 35: is waiting to enter the bank.
+Teller 2 [Customer 13]: received withdrawal approval from the manager.
+Teller 2 [Customer 13]: is going to the safe.
+Teller 2 [Customer 13]: is at the safe.
+Teller 0 [Customer 32]: is with the manager for withdrawal approval.
+Teller 0 [Customer 32]: received withdrawal approval from the manager.
+Teller 0 [Customer 32]: is going to the safe.
+Teller 0 [Customer 32]: is at the safe.
+Teller 2 [Customer 13]: finished withdraw in the safe.
+Teller 2 [Customer 13]: Transaction complete.
+Customer 13 [Teller 2]: Transaction completed.
+Customer 13 [Teller 2]: is leaving the teller.
+Customer 13 [Teller 2]: has left the bank.
+Teller 2 [Customer 13]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 38: has entered the bank.
+Customer 38: is waiting for an available teller.
+Customer 38: found an available teller.
+Customer 38 [Teller 1]: chooses Teller 1.
+Customer 38 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 38]: is requesting customer ID.
+Teller 1 [Customer 38]: received customer ID
+Teller 1 [Customer 38]: is requesting transaction type.
+Customer 38 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 38]: received transaction type: deposit
+Teller 1 [Customer 38]: is going to the safe.
+Teller 1 [Customer 38]: is at the safe.
+Teller 0 [Customer 32]: finished withdraw in the safe.
+Teller 0 [Customer 32]: Transaction complete.
+Customer 32 [Teller 0]: Transaction completed.
+Customer 32 [Teller 0]: is leaving the teller.
+Customer 32 [Teller 0]: has left the bank.
+Teller 0 [Customer 32]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 4: has entered the bank.
+Customer 4: is waiting for an available teller.
+Customer 4: found an available teller.
+Customer 4 [Teller 2]: chooses Teller 2.
+Customer 4 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 4]: is requesting customer ID.
+Teller 2 [Customer 4]: received customer ID
+Teller 2 [Customer 4]: is requesting transaction type.
+Customer 4 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 4]: received transaction type: withdraw
+Teller 2 [Customer 4]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 4]: is with the manager for withdrawal approval.
+Teller 2 [Customer 4]: received withdrawal approval from the manager.
+Teller 2 [Customer 4]: is going to the safe.
+Teller 2 [Customer 4]: is at the safe.
+Teller 1 [Customer 38]: finished deposit in the safe.
+Teller 1 [Customer 38]: Transaction complete.
+Customer 38 [Teller 1]: Transaction completed.
+Customer 38 [Teller 1]: is leaving the teller.
+Customer 38 [Teller 1]: has left the bank.
+Customer 39: has entered the bank.
+Teller 1 [Customer 38]: Customer has left.
+Customer 39: is waiting for an available teller.
+Customer 39: found an available teller.
+Customer 39 [Teller 0]: chooses Teller 0.
+Teller 1: is available for the next customer.
+Customer 39 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 39]: is requesting customer ID.
+Teller 0 [Customer 39]: received customer ID
+Teller 0 [Customer 39]: is requesting transaction type.
+Customer 39 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 39]: received transaction type: withdraw
+Teller 0 [Customer 39]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 39]: is with the manager for withdrawal approval.
+Teller 0 [Customer 39]: received withdrawal approval from the manager.
+Teller 0 [Customer 39]: is going to the safe.
+Teller 0 [Customer 39]: is at the safe.
+Teller 2 [Customer 4]: finished withdraw in the safe.
+Teller 2 [Customer 4]: Transaction complete.
+Customer 4 [Teller 2]: Transaction completed.
+Customer 4 [Teller 2]: is leaving the teller.
+Customer 4 [Teller 2]: has left the bank.
+Customer 10: has entered the bank.
+Teller 2 [Customer 4]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 10: is waiting for an available teller.
+Customer 10: found an available teller.
+Customer 10 [Teller 1]: chooses Teller 1.
+Customer 10 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 10]: is requesting customer ID.
+Teller 1 [Customer 10]: received customer ID
+Teller 1 [Customer 10]: is requesting transaction type.
+Customer 10 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 10]: received transaction type: deposit
+Teller 1 [Customer 10]: is going to the safe.
+Teller 1 [Customer 10]: is at the safe.
+Teller 0 [Customer 39]: finished withdraw in the safe.
+Teller 0 [Customer 39]: Transaction complete.
+Customer 39 [Teller 0]: Transaction completed.
+Customer 39 [Teller 0]: is leaving the teller.
+Customer 39 [Teller 0]: has left the bank.
+Teller 0 [Customer 39]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 14: has entered the bank.
+Customer 14: is waiting for an available teller.
+Customer 14: found an available teller.
+Customer 14 [Teller 2]: chooses Teller 2.
+Customer 14 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 14]: is requesting customer ID.
+Teller 2 [Customer 14]: received customer ID
+Teller 2 [Customer 14]: is requesting transaction type.
+Customer 14 [Teller 2]: is telling teller to deposit.
+Teller 2 [Customer 14]: received transaction type: deposit
+Teller 2 [Customer 14]: is going to the safe.
+Teller 2 [Customer 14]: is at the safe.
+Teller 1 [Customer 10]: finished deposit in the safe.
+Teller 1 [Customer 10]: Transaction complete.
+Customer 10 [Teller 1]: Transaction completed.
+Customer 10 [Teller 1]: is leaving the teller.
+Customer 10 [Teller 1]: has left the bank.
+Customer 0: has entered the bank.
+Customer 0: is waiting for an available teller.
+Customer 0: found an available teller.
+Teller 1 [Customer 10]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 0 [Teller 0]: chooses Teller 0.
+Customer 0 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 0]: is requesting customer ID.
+Teller 0 [Customer 0]: received customer ID
+Teller 0 [Customer 0]: is requesting transaction type.
+Customer 0 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 0]: received transaction type: withdraw
+Teller 0 [Customer 0]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 0]: is with the manager for withdrawal approval.
+Teller 0 [Customer 0]: received withdrawal approval from the manager.
+Teller 0 [Customer 0]: is going to the safe.
+Teller 0 [Customer 0]: is at the safe.
+Teller 2 [Customer 14]: finished deposit in the safe.
+Teller 2 [Customer 14]: Transaction complete.
+Customer 14 [Teller 2]: Transaction completed.
+Customer 14 [Teller 2]: is leaving the teller.
+Customer 14 [Teller 2]: has left the bank.
+Teller 2 [Customer 14]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 30: has entered the bank.
+Customer 30: is waiting for an available teller.
+Customer 30: found an available teller.
+Customer 30 [Teller 1]: chooses Teller 1.
+Customer 30 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 30]: is requesting customer ID.
+Teller 1 [Customer 30]: received customer ID
+Teller 1 [Customer 30]: is requesting transaction type.
+Customer 30 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 30]: received transaction type: deposit
+Teller 1 [Customer 30]: is going to the safe.
+Teller 1 [Customer 30]: is at the safe.
+Teller 0 [Customer 0]: finished withdraw in the safe.
+Teller 0 [Customer 0]: Transaction complete.
+Customer 0 [Teller 0]: Transaction completed.
+Customer 0 [Teller 0]: is leaving the teller.
+Customer 0 [Teller 0]: has left the bank.
+Customer 24: has entered the bank.
+Customer 24: is waiting for an available teller.
+Customer 24: found an available teller.
+Teller 0 [Customer 0]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 24 [Teller 2]: chooses Teller 2.
+Customer 24 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 24]: is requesting customer ID.
+Teller 2 [Customer 24]: received customer ID
+Teller 2 [Customer 24]: is requesting transaction type.
+Customer 24 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 24]: received transaction type: withdraw
+Teller 2 [Customer 24]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 24]: is with the manager for withdrawal approval.
+Teller 1 [Customer 30]: finished deposit in the safe.
+Teller 1 [Customer 30]: Transaction complete.
+Customer 30 [Teller 1]: Transaction completed.
+Customer 30 [Teller 1]: is leaving the teller.
+Customer 30 [Teller 1]: has left the bank.
+Teller 1 [Customer 30]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 7: has entered the bank.
+Customer 7: is waiting for an available teller.
+Customer 7: found an available teller.
+Customer 7 [Teller 0]: chooses Teller 0.
+Customer 7 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 7]: is requesting customer ID.
+Teller 0 [Customer 7]: received customer ID
+Teller 0 [Customer 7]: is requesting transaction type.
+Customer 7 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 7]: received transaction type: withdraw
+Teller 0 [Customer 7]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 24]: received withdrawal approval from the manager.
+Teller 2 [Customer 24]: is going to the safe.
+Teller 2 [Customer 24]: is at the safe.
+Teller 0 [Customer 7]: is with the manager for withdrawal approval.
+Teller 0 [Customer 7]: received withdrawal approval from the manager.
+Teller 0 [Customer 7]: is going to the safe.
+Teller 0 [Customer 7]: is at the safe.
+Teller 0 [Customer 7]: finished withdraw in the safe.
+Teller 0 [Customer 7]: Transaction complete.
+Customer 7 [Teller 0]: Transaction completed.
+Customer 7 [Teller 0]: is leaving the teller.
+Customer 7 [Teller 0]: has left the bank.
+Teller 0 [Customer 7]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 25: has entered the bank.
+Customer 25: is waiting for an available teller.
+Customer 25: found an available teller.
+Customer 25 [Teller 1]: chooses Teller 1.
+Customer 25 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 25]: is requesting customer ID.
+Teller 1 [Customer 25]: received customer ID
+Teller 1 [Customer 25]: is requesting transaction type.
+Customer 25 [Teller 1]: is telling teller to withdraw.
+Teller 1 [Customer 25]: received transaction type: withdraw
+Teller 1 [Customer 25]: is going to see the manager for withdrawal approval.
+Teller 1 [Customer 25]: is with the manager for withdrawal approval.
+Teller 2 [Customer 24]: finished withdraw in the safe.
+Teller 2 [Customer 24]: Transaction complete.
+Customer 24 [Teller 2]: Transaction completed.
+Customer 24 [Teller 2]: is leaving the teller.
+Customer 24 [Teller 2]: has left the bank.
+Teller 2 [Customer 24]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 6: has entered the bank.
+Customer 6: is waiting for an available teller.
+Customer 6: found an available teller.
+Customer 6 [Teller 0]: chooses Teller 0.
+Customer 6 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 6]: is requesting customer ID.
+Teller 0 [Customer 6]: received customer ID
+Teller 0 [Customer 6]: is requesting transaction type.
+Customer 6 [Teller 0]: is telling teller to deposit.
+Teller 0 [Customer 6]: received transaction type: deposit
+Teller 0 [Customer 6]: is going to the safe.
+Teller 0 [Customer 6]: is at the safe.
+Teller 1 [Customer 25]: received withdrawal approval from the manager.
+Teller 1 [Customer 25]: is going to the safe.
+Teller 1 [Customer 25]: is at the safe.
+Teller 0 [Customer 6]: finished deposit in the safe.
+Teller 0 [Customer 6]: Transaction complete.
+Customer 6 [Teller 0]: Transaction completed.
+Customer 6 [Teller 0]: is leaving the teller.
+Customer 6 [Teller 0]: has left the bank.
+Customer 34: has entered the bank.
+Customer 34: is waiting for an available teller.
+Teller 0 [Customer 6]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 34: found an available teller.
+Customer 34 [Teller 2]: chooses Teller 2.
+Customer 34 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 34]: is requesting customer ID.
+Teller 2 [Customer 34]: received customer ID
+Teller 2 [Customer 34]: is requesting transaction type.
+Customer 34 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 34]: received transaction type: withdraw
+Teller 2 [Customer 34]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 34]: is with the manager for withdrawal approval.
+Teller 2 [Customer 34]: received withdrawal approval from the manager.
+Teller 2 [Customer 34]: is going to the safe.
+Teller 2 [Customer 34]: is at the safe.
+Teller 1 [Customer 25]: finished withdraw in the safe.
+Teller 1 [Customer 25]: Transaction complete.
+Customer 25 [Teller 1]: Transaction completed.
+Customer 25 [Teller 1]: is leaving the teller.
+Customer 25 [Teller 1]: has left the bank.
+Teller 1 [Customer 25]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 41: has entered the bank.
+Customer 41: is waiting for an available teller.
+Customer 41: found an available teller.
+Customer 41 [Teller 0]: chooses Teller 0.
+Customer 41 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 41]: is requesting customer ID.
+Teller 0 [Customer 41]: received customer ID
+Teller 0 [Customer 41]: is requesting transaction type.
+Customer 41 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 41]: received transaction type: withdraw
+Teller 0 [Customer 41]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 41]: is with the manager for withdrawal approval.
+Teller 2 [Customer 34]: finished withdraw in the safe.
+Teller 2 [Customer 34]: Transaction complete.
+Customer 34 [Teller 2]: Transaction completed.
+Customer 34 [Teller 2]: is leaving the teller.
+Customer 34 [Teller 2]: has left the bank.
+Teller 2 [Customer 34]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 33: has entered the bank.
+Customer 33: is waiting for an available teller.
+Customer 33: found an available teller.
+Customer 33 [Teller 1]: chooses Teller 1.
+Customer 33 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 33]: is requesting customer ID.
+Teller 1 [Customer 33]: received customer ID
+Teller 1 [Customer 33]: is requesting transaction type.
+Customer 33 [Teller 1]: is telling teller to withdraw.
+Teller 1 [Customer 33]: received transaction type: withdraw
+Teller 1 [Customer 33]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 41]: received withdrawal approval from the manager.
+Teller 0 [Customer 41]: is going to the safe.
+Teller 0 [Customer 41]: is at the safe.
+Teller 1 [Customer 33]: is with the manager for withdrawal approval.
+Teller 1 [Customer 33]: received withdrawal approval from the manager.
+Teller 1 [Customer 33]: is going to the safe.
+Teller 1 [Customer 33]: is at the safe.
+Teller 0 [Customer 41]: finished withdraw in the safe.
+Teller 0 [Customer 41]: Transaction complete.
+Customer 41 [Teller 0]: Transaction completed.
+Customer 41 [Teller 0]: is leaving the teller.
+Customer 41 [Teller 0]: has left the bank.
+Customer 23: has entered the bank.
+Customer 23: is waiting for an available teller.
+Customer 23: found an available teller.
+Customer 23 [Teller 2]: chooses Teller 2.
+Customer 23 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 23]: is requesting customer ID.
+Teller 2 [Customer 23]: received customer ID
+Teller 2 [Customer 23]: is requesting transaction type.
+Teller 0 [Customer 41]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 23 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 23]: received transaction type: withdraw
+Teller 2 [Customer 23]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 23]: is with the manager for withdrawal approval.
+Teller 1 [Customer 33]: finished withdraw in the safe.
+Teller 1 [Customer 33]: Transaction complete.
+Customer 33 [Teller 1]: Transaction completed.
+Customer 33 [Teller 1]: is leaving the teller.
+Customer 33 [Teller 1]: has left the bank.
+Teller 1 [Customer 33]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 43: has entered the bank.
+Customer 43: is waiting for an available teller.
+Customer 43: found an available teller.
+Customer 43 [Teller 0]: chooses Teller 0.
+Customer 43 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 43]: is requesting customer ID.
+Teller 0 [Customer 43]: received customer ID
+Teller 0 [Customer 43]: is requesting transaction type.
+Customer 43 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 43]: received transaction type: withdraw
+Teller 0 [Customer 43]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 23]: received withdrawal approval from the manager.
+Teller 2 [Customer 23]: is going to the safe.
+Teller 2 [Customer 23]: is at the safe.
+Teller 0 [Customer 43]: is with the manager for withdrawal approval.
+Teller 2 [Customer 23]: finished withdraw in the safe.
+Teller 2 [Customer 23]: Transaction complete.
+Customer 23 [Teller 2]: Transaction completed.
+Customer 23 [Teller 2]: is leaving the teller.
+Customer 23 [Teller 2]: has left the bank.
+Customer 45: has entered the bank.
+Teller 2 [Customer 23]: Customer has left.
+Customer 45: is waiting for an available teller.
+Customer 45: found an available teller.
+Teller 2: is available for the next customer.
+Customer 45 [Teller 1]: chooses Teller 1.
+Customer 45 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 45]: is requesting customer ID.
+Teller 1 [Customer 45]: received customer ID
+Teller 1 [Customer 45]: is requesting transaction type.
+Customer 45 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 45]: received transaction type: deposit
+Teller 1 [Customer 45]: is going to the safe.
+Teller 1 [Customer 45]: is at the safe.
+Teller 0 [Customer 43]: received withdrawal approval from the manager.
+Teller 0 [Customer 43]: is going to the safe.
+Teller 0 [Customer 43]: is at the safe.
+Teller 1 [Customer 45]: finished deposit in the safe.
+Teller 1 [Customer 45]: Transaction complete.
+Customer 45 [Teller 1]: Transaction completed.
+Customer 45 [Teller 1]: is leaving the teller.
+Customer 45 [Teller 1]: has left the bank.
+Teller 1 [Customer 45]: Customer has left.
+Customer 42: has entered the bank.
+Customer 42: is waiting for an available teller.
+Teller 1: is available for the next customer.
+Customer 42: found an available teller.
+Customer 42 [Teller 2]: chooses Teller 2.
+Customer 42 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 42]: is requesting customer ID.
+Teller 2 [Customer 42]: received customer ID
+Teller 2 [Customer 42]: is requesting transaction type.
+Customer 42 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 42]: received transaction type: withdraw
+Teller 2 [Customer 42]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 42]: is with the manager for withdrawal approval.
+Teller 2 [Customer 42]: received withdrawal approval from the manager.
+Teller 2 [Customer 42]: is going to the safe.
+Teller 2 [Customer 42]: is at the safe.
+Teller 0 [Customer 43]: finished withdraw in the safe.
+Teller 0 [Customer 43]: Transaction complete.
+Customer 43 [Teller 0]: Transaction completed.
+Customer 43 [Teller 0]: is leaving the teller.
+Customer 43 [Teller 0]: has left the bank.
+Customer 44: has entered the bank.
+Customer 44: is waiting for an available teller.
+Teller 0 [Customer 43]: Customer has left.
+Customer 44: found an available teller.
+Teller 0: is available for the next customer.
+Customer 44 [Teller 1]: chooses Teller 1.
+Customer 44 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 44]: is requesting customer ID.
+Teller 1 [Customer 44]: received customer ID
+Teller 1 [Customer 44]: is requesting transaction type.
+Customer 44 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 44]: received transaction type: deposit
+Teller 1 [Customer 44]: is going to the safe.
+Teller 1 [Customer 44]: is at the safe.
+Teller 2 [Customer 42]: finished withdraw in the safe.
+Teller 2 [Customer 42]: Transaction complete.
+Customer 42 [Teller 2]: Transaction completed.
+Customer 42 [Teller 2]: is leaving the teller.
+Customer 42 [Teller 2]: has left the bank.
+Teller 2 [Customer 42]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 9: has entered the bank.
+Customer 9: is waiting for an available teller.
+Customer 9: found an available teller.
+Customer 9 [Teller 0]: chooses Teller 0.
+Customer 9 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 9]: is requesting customer ID.
+Teller 0 [Customer 9]: received customer ID
+Teller 0 [Customer 9]: is requesting transaction type.
+Customer 9 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 9]: received transaction type: withdraw
+Teller 0 [Customer 9]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 9]: is with the manager for withdrawal approval.
+Teller 0 [Customer 9]: received withdrawal approval from the manager.
+Teller 0 [Customer 9]: is going to the safe.
+Teller 0 [Customer 9]: is at the safe.
+Teller 1 [Customer 44]: finished deposit in the safe.
+Teller 1 [Customer 44]: Transaction complete.
+Customer 44 [Teller 1]: Transaction completed.
+Customer 44 [Teller 1]: is leaving the teller.
+Customer 44 [Teller 1]: has left the bank.
+Teller 1 [Customer 44]: Customer has left.
+Customer 22: has entered the bank.
+Customer 22: is waiting for an available teller.
+Customer 22: found an available teller.
+Teller 1: is available for the next customer.
+Customer 22 [Teller 2]: chooses Teller 2.
+Customer 22 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 22]: is requesting customer ID.
+Teller 2 [Customer 22]: received customer ID
+Teller 2 [Customer 22]: is requesting transaction type.
+Customer 22 [Teller 2]: is telling teller to deposit.
+Teller 2 [Customer 22]: received transaction type: deposit
+Teller 2 [Customer 22]: is going to the safe.
+Teller 2 [Customer 22]: is at the safe.
+Teller 2 [Customer 22]: finished deposit in the safe.
+Teller 2 [Customer 22]: Transaction complete.
+Customer 22 [Teller 2]: Transaction completed.
+Customer 22 [Teller 2]: is leaving the teller.
+Customer 22 [Teller 2]: has left the bank.
+Teller 2 [Customer 22]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 37: has entered the bank.
+Customer 37: is waiting for an available teller.
+Customer 37: found an available teller.
+Customer 37 [Teller 1]: chooses Teller 1.
+Customer 37 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 37]: is requesting customer ID.
+Teller 1 [Customer 37]: received customer ID
+Teller 1 [Customer 37]: is requesting transaction type.
+Customer 37 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 37]: received transaction type: deposit
+Teller 1 [Customer 37]: is going to the safe.
+Teller 1 [Customer 37]: is at the safe.
+Teller 0 [Customer 9]: finished withdraw in the safe.
+Teller 0 [Customer 9]: Transaction complete.
+Customer 9 [Teller 0]: Transaction completed.
+Customer 9 [Teller 0]: is leaving the teller.
+Customer 9 [Teller 0]: has left the bank.
+Teller 0 [Customer 9]: Customer has left.
+Customer 2: has entered the bank.
+Customer 2: is waiting for an available teller.
+Teller 0: is available for the next customer.
+Customer 2: found an available teller.
+Customer 2 [Teller 2]: chooses Teller 2.
+Customer 2 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 2]: is requesting customer ID.
+Teller 2 [Customer 2]: received customer ID
+Teller 2 [Customer 2]: is requesting transaction type.
+Customer 2 [Teller 2]: is telling teller to deposit.
+Teller 2 [Customer 2]: received transaction type: deposit
+Teller 2 [Customer 2]: is going to the safe.
+Teller 2 [Customer 2]: is at the safe.
+Teller 1 [Customer 37]: finished deposit in the safe.
+Teller 1 [Customer 37]: Transaction complete.
+Customer 37 [Teller 1]: Transaction completed.
+Customer 37 [Teller 1]: is leaving the teller.
+Customer 37 [Teller 1]: has left the bank.
+Customer 29: has entered the bank.
+Customer 29: is waiting for an available teller.
+Customer 29: found an available teller.
+Customer 29 [Teller 0]: chooses Teller 0.
+Customer 29 [Teller 0]: is providing their customer ID to the teller.
+Teller 1 [Customer 37]: Customer has left.
+Teller 1: is available for the next customer.
+Teller 0 [Customer 29]: is requesting customer ID.
+Teller 0 [Customer 29]: received customer ID
+Teller 0 [Customer 29]: is requesting transaction type.
+Customer 29 [Teller 0]: is telling teller to deposit.
+Teller 0 [Customer 29]: received transaction type: deposit
+Teller 0 [Customer 29]: is going to the safe.
+Teller 0 [Customer 29]: is at the safe.
+Teller 2 [Customer 2]: finished deposit in the safe.
+Teller 2 [Customer 2]: Transaction complete.
+Customer 2 [Teller 2]: Transaction completed.
+Customer 2 [Teller 2]: is leaving the teller.
+Customer 2 [Teller 2]: has left the bank.
+Teller 2 [Customer 2]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 40: has entered the bank.
+Customer 40: is waiting for an available teller.
+Customer 40: found an available teller.
+Customer 40 [Teller 1]: chooses Teller 1.
+Customer 40 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 40]: is requesting customer ID.
+Teller 1 [Customer 40]: received customer ID
+Teller 1 [Customer 40]: is requesting transaction type.
+Customer 40 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 40]: received transaction type: deposit
+Teller 1 [Customer 40]: is going to the safe.
+Teller 1 [Customer 40]: is at the safe.
+Teller 0 [Customer 29]: finished deposit in the safe.
+Teller 0 [Customer 29]: Transaction complete.
+Customer 29 [Teller 0]: Transaction completed.
+Customer 29 [Teller 0]: is leaving the teller.
+Customer 29 [Teller 0]: has left the bank.
+Teller 0 [Customer 29]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 47: has entered the bank.
+Customer 47: is waiting for an available teller.
+Customer 47: found an available teller.
+Customer 47 [Teller 2]: chooses Teller 2.
+Customer 47 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 47]: is requesting customer ID.
+Teller 2 [Customer 47]: received customer ID
+Teller 2 [Customer 47]: is requesting transaction type.
+Customer 47 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 47]: received transaction type: withdraw
+Teller 2 [Customer 47]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 47]: is with the manager for withdrawal approval.
+Teller 1 [Customer 40]: finished deposit in the safe.
+Teller 1 [Customer 40]: Transaction complete.
+Customer 40 [Teller 1]: Transaction completed.
+Customer 40 [Teller 1]: is leaving the teller.
+Customer 40 [Teller 1]: has left the bank.
+Teller 1 [Customer 40]: Customer has left.
+Customer 18: has entered the bank.
+Customer 18: is waiting for an available teller.
+Customer 18: found an available teller.
+Teller 1: is available for the next customer.
+Customer 18 [Teller 0]: chooses Teller 0.
+Customer 18 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 18]: is requesting customer ID.
+Teller 0 [Customer 18]: received customer ID
+Teller 0 [Customer 18]: is requesting transaction type.
+Customer 18 [Teller 0]: is telling teller to deposit.
+Teller 0 [Customer 18]: received transaction type: deposit
+Teller 0 [Customer 18]: is going to the safe.
+Teller 0 [Customer 18]: is at the safe.
+Teller 2 [Customer 47]: received withdrawal approval from the manager.
+Teller 2 [Customer 47]: is going to the safe.
+Teller 2 [Customer 47]: is at the safe.
+Teller 2 [Customer 47]: finished withdraw in the safe.
+Teller 2 [Customer 47]: Transaction complete.
+Customer 47 [Teller 2]: Transaction completed.
+Customer 47 [Teller 2]: is leaving the teller.
+Customer 47 [Teller 2]: has left the bank.
+Customer 16: has entered the bank.
+Customer 16: is waiting for an available teller.
+Customer 16: found an available teller.
+Customer 16 [Teller 1]: chooses Teller 1.
+Customer 16 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 16]: is requesting customer ID.
+Teller 2 [Customer 47]: Customer has left.
+Teller 2: is available for the next customer.
+Teller 1 [Customer 16]: received customer ID
+Teller 1 [Customer 16]: is requesting transaction type.
+Customer 16 [Teller 1]: is telling teller to withdraw.
+Teller 1 [Customer 16]: received transaction type: withdraw
+Teller 1 [Customer 16]: is going to see the manager for withdrawal approval.
+Teller 1 [Customer 16]: is with the manager for withdrawal approval.
+Teller 0 [Customer 18]: finished deposit in the safe.
+Teller 0 [Customer 18]: Transaction complete.
+Customer 18 [Teller 0]: Transaction completed.
+Customer 18 [Teller 0]: is leaving the teller.
+Customer 18 [Teller 0]: has left the bank.
+Teller 0 [Customer 18]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 15: has entered the bank.
+Customer 15: is waiting for an available teller.
+Customer 15: found an available teller.
+Customer 15 [Teller 2]: chooses Teller 2.
+Customer 15 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 15]: is requesting customer ID.
+Teller 2 [Customer 15]: received customer ID
+Teller 2 [Customer 15]: is requesting transaction type.
+Customer 15 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 15]: received transaction type: withdraw
+Teller 2 [Customer 15]: is going to see the manager for withdrawal approval.
+Teller 1 [Customer 16]: received withdrawal approval from the manager.
+Teller 1 [Customer 16]: is going to the safe.
+Teller 1 [Customer 16]: is at the safe.
+Teller 2 [Customer 15]: is with the manager for withdrawal approval.
+Teller 1 [Customer 16]: finished withdraw in the safe.
+Teller 2 [Customer 15]: received withdrawal approval from the manager.
+Teller 1 [Customer 16]: Transaction complete.
+Teller 2 [Customer 15]: is going to the safe.
+Customer 16 [Teller 1]: Transaction completed.
+Customer 16 [Teller 1]: is leaving the teller.
+Teller 2 [Customer 15]: is at the safe.
+Customer 16 [Teller 1]: has left the bank.
+Customer 19: has entered the bank.
+Customer 19: is waiting for an available teller.
+Customer 19: found an available teller.
+Teller 1 [Customer 16]: Customer has left.
+Customer 19 [Teller 0]: chooses Teller 0.
+Teller 1: is available for the next customer.
+Customer 19 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 19]: is requesting customer ID.
+Teller 0 [Customer 19]: received customer ID
+Teller 0 [Customer 19]: is requesting transaction type.
+Customer 19 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 19]: received transaction type: withdraw
+Teller 0 [Customer 19]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 19]: is with the manager for withdrawal approval.
+Teller 0 [Customer 19]: received withdrawal approval from the manager.
+Teller 0 [Customer 19]: is going to the safe.
+Teller 0 [Customer 19]: is at the safe.
+Teller 0 [Customer 19]: finished withdraw in the safe.
+Teller 0 [Customer 19]: Transaction complete.
+Customer 19 [Teller 0]: Transaction completed.
+Customer 19 [Teller 0]: is leaving the teller.
+Customer 19 [Teller 0]: has left the bank.
+Teller 0 [Customer 19]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 28: has entered the bank.
+Customer 28: is waiting for an available teller.
+Customer 28: found an available teller.
+Customer 28 [Teller 1]: chooses Teller 1.
+Customer 28 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 28]: is requesting customer ID.
+Teller 1 [Customer 28]: received customer ID
+Teller 1 [Customer 28]: is requesting transaction type.
+Customer 28 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 28]: received transaction type: deposit
+Teller 1 [Customer 28]: is going to the safe.
+Teller 1 [Customer 28]: is at the safe.
+Teller 2 [Customer 15]: finished withdraw in the safe.
+Teller 2 [Customer 15]: Transaction complete.
+Customer 15 [Teller 2]: Transaction completed.
+Customer 15 [Teller 2]: is leaving the teller.
+Customer 15 [Teller 2]: has left the bank.
+Teller 2 [Customer 15]: Customer has left.
+Customer 46: has entered the bank.
+Customer 46: is waiting for an available teller.
+Teller 2: is available for the next customer.
+Customer 46: found an available teller.
+Customer 46 [Teller 0]: chooses Teller 0.
+Customer 46 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 46]: is requesting customer ID.
+Teller 0 [Customer 46]: received customer ID
+Teller 0 [Customer 46]: is requesting transaction type.
+Customer 46 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 46]: received transaction type: withdraw
+Teller 0 [Customer 46]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 46]: is with the manager for withdrawal approval.
+Teller 0 [Customer 46]: received withdrawal approval from the manager.
+Teller 0 [Customer 46]: is going to the safe.
+Teller 0 [Customer 46]: is at the safe.
+Teller 1 [Customer 28]: finished deposit in the safe.
+Teller 1 [Customer 28]: Transaction complete.
+Customer 28 [Teller 1]: Transaction completed.
+Customer 28 [Teller 1]: is leaving the teller.
+Customer 28 [Teller 1]: has left the bank.
+Teller 1 [Customer 28]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 8: has entered the bank.
+Customer 8: is waiting for an available teller.
+Customer 8: found an available teller.
+Customer 8 [Teller 2]: chooses Teller 2.
+Customer 8 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 8]: is requesting customer ID.
+Teller 2 [Customer 8]: received customer ID
+Teller 2 [Customer 8]: is requesting transaction type.
+Customer 8 [Teller 2]: is telling teller to deposit.
+Teller 2 [Customer 8]: received transaction type: deposit
+Teller 2 [Customer 8]: is going to the safe.
+Teller 2 [Customer 8]: is at the safe.
+Teller 2 [Customer 8]: finished deposit in the safe.
+Teller 2 [Customer 8]: Transaction complete.
+Customer 8 [Teller 2]: Transaction completed.
+Customer 8 [Teller 2]: is leaving the teller.
+Customer 8 [Teller 2]: has left the bank.
+Teller 2 [Customer 8]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 3: has entered the bank.
+Customer 3: is waiting for an available teller.
+Customer 3: found an available teller.
+Customer 3 [Teller 1]: chooses Teller 1.
+Customer 3 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 3]: is requesting customer ID.
+Teller 1 [Customer 3]: received customer ID
+Teller 1 [Customer 3]: is requesting transaction type.
+Customer 3 [Teller 1]: is telling teller to withdraw.
+Teller 1 [Customer 3]: received transaction type: withdraw
+Teller 1 [Customer 3]: is going to see the manager for withdrawal approval.
+Teller 1 [Customer 3]: is with the manager for withdrawal approval.
+Teller 0 [Customer 46]: finished withdraw in the safe.
+Teller 0 [Customer 46]: Transaction complete.
+Customer 46 [Teller 0]: Transaction completed.
+Customer 46 [Teller 0]: is leaving the teller.
+Customer 46 [Teller 0]: has left the bank.
+Teller 0 [Customer 46]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 20: has entered the bank.
+Customer 20: is waiting for an available teller.
+Customer 20: found an available teller.
+Customer 20 [Teller 2]: chooses Teller 2.
+Customer 20 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 20]: is requesting customer ID.
+Teller 2 [Customer 20]: received customer ID
+Teller 2 [Customer 20]: is requesting transaction type.
+Customer 20 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 20]: received transaction type: withdraw
+Teller 2 [Customer 20]: is going to see the manager for withdrawal approval.
+Teller 1 [Customer 3]: received withdrawal approval from the manager.
+Teller 1 [Customer 3]: is going to the safe.
+Teller 2 [Customer 20]: is with the manager for withdrawal approval.
+Teller 1 [Customer 3]: is at the safe.
+Teller 2 [Customer 20]: received withdrawal approval from the manager.
+Teller 2 [Customer 20]: is going to the safe.
+Teller 2 [Customer 20]: is at the safe.
+Teller 2 [Customer 20]: finished withdraw in the safe.
+Teller 2 [Customer 20]: Transaction complete.
+Customer 20 [Teller 2]: Transaction completed.
+Customer 20 [Teller 2]: is leaving the teller.
+Customer 20 [Teller 2]: has left the bank.
+Customer 5: has entered the bank.
+Customer 5: is waiting for an available teller.
+Customer 5: found an available teller.
+Teller 2 [Customer 20]: Customer has left.
+Customer 5 [Teller 0]: chooses Teller 0.
+Teller 2: is available for the next customer.
+Customer 5 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 5]: is requesting customer ID.
+Teller 0 [Customer 5]: received customer ID
+Teller 0 [Customer 5]: is requesting transaction type.
+Customer 5 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 5]: received transaction type: withdraw
+Teller 0 [Customer 5]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 5]: is with the manager for withdrawal approval.
+Teller 1 [Customer 3]: finished withdraw in the safe.
+Teller 1 [Customer 3]: Transaction complete.
+Customer 3 [Teller 1]: Transaction completed.
+Customer 3 [Teller 1]: is leaving the teller.
+Customer 3 [Teller 1]: has left the bank.
+Customer 21: has entered the bank.
+Customer 21: is waiting for an available teller.
+Teller 1 [Customer 3]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 21: found an available teller.
+Customer 21 [Teller 2]: chooses Teller 2.
+Customer 21 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 21]: is requesting customer ID.
+Teller 2 [Customer 21]: received customer ID
+Teller 2 [Customer 21]: is requesting transaction type.
+Customer 21 [Teller 2]: is telling teller to deposit.
+Teller 2 [Customer 21]: received transaction type: deposit
+Teller 2 [Customer 21]: is going to the safe.
+Teller 2 [Customer 21]: is at the safe.
+Teller 0 [Customer 5]: received withdrawal approval from the manager.
+Teller 0 [Customer 5]: is going to the safe.
+Teller 0 [Customer 5]: is at the safe.
+Teller 2 [Customer 21]: finished deposit in the safe.
+Teller 2 [Customer 21]: Transaction complete.
+Customer 21 [Teller 2]: Transaction completed.
+Customer 21 [Teller 2]: is leaving the teller.
+Customer 21 [Teller 2]: has left the bank.
+Teller 2 [Customer 21]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 48: has entered the bank.
+Customer 48: is waiting for an available teller.
+Customer 48: found an available teller.
+Customer 48 [Teller 1]: chooses Teller 1.
+Customer 48 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 48]: is requesting customer ID.
+Teller 1 [Customer 48]: received customer ID
+Teller 1 [Customer 48]: is requesting transaction type.
+Customer 48 [Teller 1]: is telling teller to withdraw.
+Teller 1 [Customer 48]: received transaction type: withdraw
+Teller 1 [Customer 48]: is going to see the manager for withdrawal approval.
+Teller 1 [Customer 48]: is with the manager for withdrawal approval.
+Teller 1 [Customer 48]: received withdrawal approval from the manager.
+Teller 1 [Customer 48]: is going to the safe.
+Teller 1 [Customer 48]: is at the safe.
+Teller 0 [Customer 5]: finished withdraw in the safe.
+Teller 0 [Customer 5]: Transaction complete.
+Customer 5 [Teller 0]: Transaction completed.
+Customer 5 [Teller 0]: is leaving the teller.
+Customer 5 [Teller 0]: has left the bank.
+Teller 0 [Customer 5]: Customer has left.
+Teller 0: is available for the next customer.
+Customer 27: has entered the bank.
+Customer 27: is waiting for an available teller.
+Customer 27: found an available teller.
+Customer 27 [Teller 2]: chooses Teller 2.
+Customer 27 [Teller 2]: is providing their customer ID to the teller.
+Teller 2 [Customer 27]: is requesting customer ID.
+Teller 2 [Customer 27]: received customer ID
+Teller 2 [Customer 27]: is requesting transaction type.
+Customer 27 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 27]: received transaction type: withdraw
+Teller 2 [Customer 27]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 27]: is with the manager for withdrawal approval.
+Teller 2 [Customer 27]: received withdrawal approval from the manager.
+Teller 2 [Customer 27]: is going to the safe.
+Teller 2 [Customer 27]: is at the safe.
+Teller 1 [Customer 48]: finished withdraw in the safe.
+Teller 1 [Customer 48]: Transaction complete.
+Customer 48 [Teller 1]: Transaction completed.
+Customer 48 [Teller 1]: is leaving the teller.
+Customer 48 [Teller 1]: has left the bank.
+Teller 1 [Customer 48]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 26: has entered the bank.
+Customer 26: is waiting for an available teller.
+Customer 26: found an available teller.
+Customer 26 [Teller 0]: chooses Teller 0.
+Customer 26 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 26]: is requesting customer ID.
+Teller 0 [Customer 26]: received customer ID
+Teller 0 [Customer 26]: is requesting transaction type.
+Customer 26 [Teller 0]: is telling teller to deposit.
+Teller 0 [Customer 26]: received transaction type: deposit
+Teller 0 [Customer 26]: is going to the safe.
+Teller 0 [Customer 26]: is at the safe.
+Teller 2 [Customer 27]: finished withdraw in the safe.
+Teller 2 [Customer 27]: Transaction complete.
+Customer 27 [Teller 2]: Transaction completed.
+Customer 27 [Teller 2]: is leaving the teller.
+Customer 27 [Teller 2]: has left the bank.
+Teller 2 [Customer 27]: Customer has left.
+Teller 2: is available for the next customer.
+Customer 49: has entered the bank.
+Customer 49: is waiting for an available teller.
+Customer 49: found an available teller.
+Customer 49 [Teller 1]: chooses Teller 1.
+Customer 49 [Teller 1]: is providing their customer ID to the teller.
+Teller 1 [Customer 49]: is requesting customer ID.
+Teller 1 [Customer 49]: received customer ID
+Teller 1 [Customer 49]: is requesting transaction type.
+Customer 49 [Teller 1]: is telling teller to deposit.
+Teller 1 [Customer 49]: received transaction type: deposit
+Teller 1 [Customer 49]: is going to the safe.
+Teller 1 [Customer 49]: is at the safe.
+Teller 0 [Customer 26]: finished deposit in the safe.
+Teller 0 [Customer 26]: Transaction complete.
+Customer 26 [Teller 0]: Transaction completed.
+Customer 26 [Teller 0]: is leaving the teller.
+Customer 26 [Teller 0]: has left the bank.
+Customer 36: has entered the bank.
+Customer 36: is waiting for an available teller.
+Customer 36: found an available teller.
+Teller 0 [Customer 26]: Customer has left.
+Customer 36 [Teller 2]: chooses Teller 2.
+Customer 36 [Teller 2]: is providing their customer ID to the teller.
+Teller 0: is available for the next customer.
+Teller 2 [Customer 36]: is requesting customer ID.
+Teller 2 [Customer 36]: received customer ID
+Teller 2 [Customer 36]: is requesting transaction type.
+Customer 36 [Teller 2]: is telling teller to withdraw.
+Teller 2 [Customer 36]: received transaction type: withdraw
+Teller 2 [Customer 36]: is going to see the manager for withdrawal approval.
+Teller 2 [Customer 36]: is with the manager for withdrawal approval.
+Teller 2 [Customer 36]: received withdrawal approval from the manager.
+Teller 2 [Customer 36]: is going to the safe.
+Teller 2 [Customer 36]: is at the safe.
+Teller 1 [Customer 49]: finished deposit in the safe.
+Teller 1 [Customer 49]: Transaction complete.
+Customer 49 [Teller 1]: Transaction completed.
+Customer 49 [Teller 1]: is leaving the teller.
+Customer 49 [Teller 1]: has left the bank.
+Teller 1 [Customer 49]: Customer has left.
+Teller 1: is available for the next customer.
+Customer 35: has entered the bank.
+Customer 35: is waiting for an available teller.
+Customer 35: found an available teller.
+Customer 35 [Teller 0]: chooses Teller 0.
+Customer 35 [Teller 0]: is providing their customer ID to the teller.
+Teller 0 [Customer 35]: is requesting customer ID.
+Teller 0 [Customer 35]: received customer ID
+Teller 0 [Customer 35]: is requesting transaction type.
+Customer 35 [Teller 0]: is telling teller to withdraw.
+Teller 0 [Customer 35]: received transaction type: withdraw
+Teller 0 [Customer 35]: is going to see the manager for withdrawal approval.
+Teller 0 [Customer 35]: is with the manager for withdrawal approval.
+Teller 0 [Customer 35]: received withdrawal approval from the manager.
+Teller 0 [Customer 35]: is going to the safe.
+Teller 0 [Customer 35]: is at the safe.
+Teller 2 [Customer 36]: finished withdraw in the safe.
+Teller 2 [Customer 36]: Transaction complete.
+Customer 36 [Teller 2]: Transaction completed.
+Customer 36 [Teller 2]: is leaving the teller.
+Customer 36 [Teller 2]: has left the bank.
+Teller 2 [Customer 36]: Customer has left.
+Teller 2: is available for the next customer.
+Teller 0 [Customer 35]: finished withdraw in the safe.
+Teller 0 [Customer 35]: Transaction complete.
+Customer 35 [Teller 0]: Transaction completed.
+Customer 35 [Teller 0]: is leaving the teller.
+Customer 35 [Teller 0]: has left the bank.
+Customer 35 [Teller 0]: All customers have been served. Bank is closing now.
+Teller 0 [Customer 35]: Customer has left.
+Teller 0: 
+Closing - all 50 customers served
+Teller 0: has served all customers and is closing for the day.
+
+Bank is now closing. All customers have been served.
+Waking up any idle tellers...
+Waiting for tellers to finish...
+Teller 1: No more customers to serve
+Teller 1: has served all customers and is closing for the day.
+Teller 2: No more customers to serve
+Teller 2: has served all customers and is closing for the day.
+Waiting for remaining customers to exit...
+Bank closed.
